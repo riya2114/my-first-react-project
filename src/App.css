@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(37, 3, 37, 0.973);
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: transparent;
+}
+.footer{
+  margin-top: 10px;
+
+}
+.para{
+  color: white;
+  text-align: center;
+  margin-top: 18px;
+  font-family: sans-serif;
+}
+.log{
+  text-align: center;
+  margin-top: 40px;
+  color: rgb(41, 41, 226);
+  margin-left: 110px;
+  font-size: 1.1rem;
+}
+.sign{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: rgb(41, 41, 226);
+}
+.log:hover{
+  color: rgb(103, 11, 189);
+}
+.sign:hover{
+  color: rgb(103, 11, 189);
+}

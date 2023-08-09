@@ -1,0 +1,91 @@
+.form{ 
+    height: 30rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #fff;
+  }
+  
+  .heading,
+  .icon {
+    color: rgb(120, 12, 192);
+    cursor: pointer;
+  }
+  .inputContainer {
+    width: 80%;
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid rgb(63, 61, 61)
+  }
+  
+  .passwordInput {
+    width: 90%;
+  }
+  .loginButton {
+    width: 90%;
+    border-radius: 0.5rem;
+    background-color: rgba(91, 6, 124, 0.904);
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .loginButton:hover {
+    background-color: rgb(86, 8, 189);
+  } 
+  .para{
+    color: white;
+  }
+  .paraPara{
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: sans-serif;
+  }
+  .span{
+    margin-left: 8px;
+    border-bottom: 2px solid blue;
+    color: rgb(6, 51, 248);
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  .span:hover{
+    color: rgb(109, 153, 235);
+  }
+.formPage{
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  background-color: #fff;
+}
+@media (max-width: 450px){
+  .form{
+    width: 250px;
+    height: 450px;
+    font-size: 15px;
+  }
+  input{
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 320px){
+  .form{
+    width: 250px;
+    height: 450px;
+    font-size: 12px;
+  }
+  .inputContainer{
+    width: 200px;
+  }
+}
